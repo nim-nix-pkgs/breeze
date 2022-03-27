@@ -11,6 +11,7 @@
   inputs.src-breeze-master.ref   = "refs/heads/master";
   inputs.src-breeze-master.owner = "alehander42";
   inputs.src-breeze-master.repo  = "breeze";
+  inputs.src-breeze-master.dir   = "";
   inputs.src-breeze-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
